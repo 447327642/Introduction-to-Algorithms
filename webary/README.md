@@ -5,4 +5,4 @@
 - 姓名: [闻波](http://home.cnblogs.com/u/webary/)
 - QQ  : [813577991](http://wpa.qq.com/msgrd?V=1&uin=813577991)
 - 邮箱: [webary@sina.com](mailto:webary@sina.com)
-- 博客: [cnblogs.com/webary](http://www.cnblogs.com/webary/)
+- 博客: [webary.cnblogs.com](http://www.cnblogs.com/webary/)
