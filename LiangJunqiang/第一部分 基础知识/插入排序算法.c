@@ -1,0 +1,26 @@
+#include <stdio.h>
+void InsertionSort(int A[], int length)
+{
+	int i, j, key;
+	for(j = 1; j < length; j++)
+	{
+		key = A[j];
+		i = j - 1;
+		while(i >= 0 && A[i] > key)
+		{
+			A[i + 1] = A[i];
+			i--;
+		}
+		A[i + 1] = key;
+	}
+}
+int main()
+{
+	int a[10] = {3, 20, 16, 5, 71, 35, 2, 8, 9, 40}, n = 10, i;
+//	for(i = 0; i < n; i++)
+//		scanf("%d", &a[i]);
+	InsertionSort(a, n);
+	for(i = 0; i < n; i++)
+		printf("%d, ", a[i]);
+	return 0;
+}
